@@ -279,54 +279,53 @@
 
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=be981011e44202190ace7d32828b5576" method="post" enctype="multipart/form-data">
+
+                        <input type='hidden' name='redirect_to' value='http://www.serviproc.com/' />
 
                         <div class="form-group">
                             <label>Nombre:</label>
-                            <input class="form-control" type="text" placeholder="Ingresa tu nombre">
+                            <input class="form-control" name="nombre" type="text" placeholder="Ingresa tu nombre">
                         </div>
 
                         <div class="form-group">
                             <label>Correo Electronico:</label>
-                            <input class="form-control"  type="text" placeholder="Ingresa tu correo electronico">
+                            <input class="form-control" name="email" type="text" placeholder="Ingresa tu correo electronico">
                         </div>
 
                         <div class="form-group">
                             <label>Teléfono:</label>
-                            <input class="form-control"  type="text" placeholder="Ingresa tu teléfono">
+                            <input class="form-control" name="telefono" type="text" placeholder="Ingresa tu teléfono">
                         </div>
 
                         <div class="form-group">
                             <label>Celular:</label>
-                            <input class="form-control"  type="text" placeholder="Ingresa tu celular">
+                            <input class="form-control" name="celular" type="text" placeholder="Ingresa tu celular">
                         </div>
 
                         <div class="form-group">
                             <label>Carrera:</label>
-                            <input class="form-control"  type="text" placeholder="Ingresa tu carrera">
+                            <input class="form-control" name="carrera" type="text" placeholder="Ingresa tu carrera">
                         </div>
 
                         <div class="form-group">
                             <label>Curriculum Vitae (word o pdf)</label>
-                            <input class="form-control"  type="file" placeholder="Ingresa tu CV (Word o PDF)"></textarea>
+                            <input type='file' name='cv' placeholder="Ingresa tu CV (Word o PDF)" class="form-control" />
                         </div>
 
                         <div class="form-group">
                             <label>Comentario:</label>
-                            <textarea class="form-control"  rows="5" placeholder="Ingresa tu comentario"></textarea>
+                            <textarea class="form-control" name="comentario" rows="5" placeholder="Ingresa tu comentario"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <center><input type='submit' value='Enviar' class="btn btn-primary btn-xl" /></center>
                         </div>
 
                      </form>
                  </div>
             </div>
 
-            <div class="row">
-            <br>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4 text-center">
-                    <center><button class="btn btn-primary btn-xl">Enviar</button></center>
-                </div>
-            </div>
             <div class="row">
             <br>
                 <div class="col-lg-10 col-lg-offset-1">
@@ -359,39 +358,37 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8">
 
-                    <form action="https://getsimpleform.com/messages?form_api_token=939ab2aba4bec135c3252d332e4c6cf2" method="post">
-                      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                      <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-                      <!-- all your input fields here.... -->
-                      <input type='text' name='test' />
-                      <input type='submit' value='Test form' />
-                    </form>
+                    <form class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=6eb08ce3ca2b84960aae6c973dbcbd77" method="post">
 
-                    <form class="form-horizontal">
+                        <input type='hidden' name='redirect_to' value='http://www.serviproc.com/' />
 
                         <div class="form-group">
                             <label>Nombre:</label>
-                            <input class="form-control" type="text" placeholder="Ingresa tu nombre">
+                            <input class="form-control" type="text" name="nombre" placeholder="Ingresa tu nombre">
                         </div>
 
                         <div class="form-group">
                             <label>Correo Electronico:</label>
-                            <input class="form-control"  type="text" placeholder="Ingresa tu correo electronico">
+                            <input class="form-control"  type="text" name="email" placeholder="Ingresa tu correo electronico">
                         </div>
 
                         <div class="form-group">
                             <label>Teléfono:</label>
-                            <input class="form-control"  type="text" placeholder="Ingresa tu teléfono">
+                            <input class="form-control"  type="text" name="telefono" placeholder="Ingresa tu teléfono">
                         </div>
 
                         <div class="form-group">
                             <label>Celular:</label>
-                            <input class="form-control"  type="text" placeholder="Ingresa tu celular">
+                            <input class="form-control"  type="text" name="celular" placeholder="Ingresa tu celular">
                         </div>
 
                         <div class="form-group">
                             <label>Comentario:</label>
-                            <textarea class="form-control"  rows="5" placeholder="Ingresa tu comentario"></textarea>
+                            <textarea class="form-control"  rows="5" name="comentario" placeholder="Ingresa tu comentario"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <center><input type='submit' value='Enviar' class="btn btn-default btn-xl sr-button" /></center>
                         </div>
 
                      </form>
@@ -399,13 +396,6 @@
 
             </div>
 
-            <div class="row">
-            <br>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4 text-center">
-                    <center><button class="btn btn-default btn-xl sr-button" >Enviar</button></center>
-                </div>
-            </div>
         
         </div>
     </section>
